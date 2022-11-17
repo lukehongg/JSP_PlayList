@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JSP_CRUD_Hong:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JSP_CRUD_Hong</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JSP_CRUD_Hong-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JSP_CRUD_Hong:war exploded" />
+    </root>
+  </artifact>
+</component>
