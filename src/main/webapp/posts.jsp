@@ -91,7 +91,7 @@
             <p class="lead text-muted">파일 업로드 기능을 추가하고 서버에 배포한 JSP 프로젝트입니다.
             자세한 코드는 github repository에 올려놨으니 참고하시길 바랍니다. <br /> 화이팅 :)</p>
             <p>
-                <a href="#" class="btn btn-primary my-2">github repository 이동</a>
+                <a href="https://github.com/lukehongg/JSP_PlayList" target="_blank" class="btn btn-primary my-2">github repository 이동</a>
                 <a href="addpostform.jsp" class="btn btn-secondary my-2">플레이 리스트 추가</a>
             </p>
         </div>
@@ -109,7 +109,7 @@
             <c:forEach items="${list}" var="u" varStatus="status">
             <div class="col">
                 <div class="card shadow-sm">
-                        <img width="420" height="233" src="${pageContext.request.contextPath}/upload/${u.getPhoto()}">
+                        <img width="inherit" height="100%" src="${pageContext.request.contextPath}/upload/${u.getPhoto()}">
                         <div class="card-body">
                         <h5>${u.getYoutuber()}</h5>
                         <p class="card-text" style="height: 70px; overflow: hidden;">${u.getTitle()}</p>

@@ -20,18 +20,6 @@
 %>
 
 <h1 align="center">동영상 수정</h1>
-<%--<form action="editpost.jsp" method="post" enctype="multipart/form-data">--%>
-<%--    <table>--%>
-<%--        <tr><td>썸네일:</td><td><input type="file" name="photo" value="${vo.getPhoto()}" />--%>
-<%--        <c:if test="${vo.getPhoto() ne ''}"><br /><img src="${pageContext.request.contextPath}/upload/${u.getPhoto}"></c:if></td></tr>--%>
-<%--        <tr><td>제목:</td><td><input type="text" name="title" value="<%=u.getTitle() %>"/></td></tr>--%>
-<%--        <tr><td>유튜버:</td><td><input type="text" name="youtuber" value="<%=u.getYoutuber() %>"/></td></tr>--%>
-<%--        <tr><td>링크:</td><td><input type="text" name="link" value="<%=u.getLink() %>"/></td></tr>--%>
-<%--        <tr><td>조회수:</td><td><input type="number" name="views" value="<%=u.getViews() %>"/></td></tr>--%>
-<%--        <tr><td>정보:</td><td><textarea cols="50" rows="5" name="content" value="<%=u.getContent() %>"></textarea></td></tr>--%>
-<%--        <tr><td colspan="2"><input type="submit" value="Edit Post"/>--%>
-<%--            <input type="button" value="Cancel" onclick="history.back()"/></td></tr>--%>
-<%--    </table>--%>
 <div align="center">
     <form action="editpost.jsp" method="post" enctype="multipart/form-data">
         <input type="hidden" name="seq" value="<%=u.getSeq() %>"/>
